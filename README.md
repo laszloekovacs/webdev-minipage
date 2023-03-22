@@ -60,6 +60,7 @@
 
 - [sass](https://sass-lang.com/guide)
 - [tailwind](https://tailwindcss.com/)
+- [normalize.css](https://necolas.github.io/normalize.css/)
 
 ### C programming - the fun part
 

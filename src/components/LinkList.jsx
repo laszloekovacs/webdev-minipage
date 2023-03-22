@@ -1,6 +1,6 @@
-import MarkdownIt from 'markdown-it'
 import React from 'react'
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query'
+import Showdown from 'showdown'
 
 const queryClient = new QueryClient()
 
@@ -8,16 +8,25 @@ const documentUrl =
   'https://raw.githubusercontent.com/laszloekovacs/webdev-minipage/master/README.md'
 
 const LinkListConsumer = () => {
-  const { isLoading, error, data } = useQuery('links', () => {
-    const bytes = fetch(documentUrl).then((res) => res.json())
+  const { isLoading, error, data } = useQuery('links', async () => {
+    try {
+      const data = await (await fetch(documentUrl)).text()
+      console.log(data)
 
-    /* transform the loaded md file into json */
-    const md = new MarkdownIt()
+      const converter = new Showdown.Converter()
+      const html = converter.makeHtml(data)
 
-    const result = md.parse('Hello *world*')
-
-    console.log(result)
+      return html
+    } catch (error) {
+      console.log(error)
+    }
   })
+
+  if (isLoading) return 'Loading...'
+
+  if (error) return 'An error has occurred: ' + error.message
+
+  return <div dangerouslySetInnerHTML={{ __html: data }} />
 }
 
 const LinkList = () => {
