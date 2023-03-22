@@ -26,7 +26,7 @@ const LinkListConsumer = () => {
 
   if (error) return 'An error has occurred: ' + error.message
 
-  return <div dangerouslySetInnerHTML={{ __html: data }} />
+  return <main dangerouslySetInnerHTML={{ __html: data }} />
 }
 
 const LinkList = () => {

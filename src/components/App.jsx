@@ -8,12 +8,12 @@ import Footer from './Footer'
 
 function App() {
   return (
-    <main>
+    <div className="App">
       <Header />
       <Parallax />
       <LinkList />
       <Footer />
-    </main>
+    </div>
   )
 }
 

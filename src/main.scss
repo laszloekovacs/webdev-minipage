@@ -3,8 +3,42 @@
 $light: linear-gradient(to right bottom, #d44000, #d30033, #c30056, #a00076, #69008e);
 $dark: linear-gradient(to right bottom, #373737, #434343, #4e4e4e, #5b5b5b, #676767);
 
-body {
-  margin: 1px;
-  background-image: $dark;
+html {
+  font-size: 16px;
+  color: azure;
+
+  background-image: $light;
   background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin: 2rem 0;
 }
