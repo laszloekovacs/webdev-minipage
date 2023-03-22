@@ -11,7 +11,6 @@ const LinkListLoader = () => {
   const { isLoading, error, data } = useQuery('links', async () => {
     try {
       const data = await (await fetch(documentUrl)).text()
-      console.log(data)
 
       const converter = new Showdown.Converter()
       const html = converter.makeHtml(data)

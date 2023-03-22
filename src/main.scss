@@ -25,6 +25,10 @@ $md: 1.5rem;
 $nm: 1rem;
 $sm: 0.66rem;
 
+img {
+  max-width: 100%;
+}
+
 html {
   font-size: 16px;
   font-family: 'Apercu', 'Segoe UI', 'Roboto', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
