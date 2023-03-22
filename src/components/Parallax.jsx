@@ -1,20 +1,32 @@
 import React from 'react'
-import p1 from '../assets/pages/p1.png'
 import parallax from './parallax.module.scss'
 
-const Parallax = () => {
-  return (
-    <div>
-      <section className={parallax.section}>
+const Parallax = (props) => {
+  /* generate filenames */
+  let planes = []
+
+  const numPlanes = props.planes | 4
+
+  for (let i = 0; i < numPlanes; i++) {
+    planes = [...planes, `./plates/p${i}.jpg`]
+  }
+
+  console.log(planes)
+
+  const list = planes.map((plane, i) => {
+    return (
+      <section key={i} className={parallax.section}>
         <div
           className={parallax.bg}
           style={{
-            backgroundImage: `url(${p1})`,
+            backgroundImage: `url(${plane[i]})`,
           }}
         ></div>
       </section>
-    </div>
-  )
+    )
+  })
+
+  return <div>{list}</div>
 }
 
 export default Parallax
