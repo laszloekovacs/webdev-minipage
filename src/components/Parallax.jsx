@@ -8,7 +8,7 @@ const Parallax = (props) => {
   const numPlanes = props.planes | 4
 
   for (let i = 0; i < numPlanes; i++) {
-    planes = [...planes, `./plates/p${i}.jpg`]
+    planes = [...planes, `./public/plates/p${i}.png`]
   }
 
   console.log(planes)
@@ -19,7 +19,7 @@ const Parallax = (props) => {
         <div
           className={parallax.bg}
           style={{
-            backgroundImage: `url(${plane[i]})`,
+            backgroundImage: `url(${plane})`,
           }}
         ></div>
       </section>
