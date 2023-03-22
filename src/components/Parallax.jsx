@@ -5,28 +5,29 @@ const Parallax = (props) => {
   /* generate filenames */
   let planes = []
 
-  const numPlanes = props.planes | 4
+  const numPlanes = props.planes | 5
 
   for (let i = 0; i < numPlanes; i++) {
     planes = [...planes, `./plates/p${i}.png`]
   }
 
-  console.log(planes)
-
   const list = planes.map((plane, i) => {
     return (
-      <section key={i} className={parallax.section}>
-        <div
-          className={parallax.bg}
-          style={{
-            backgroundImage: `url(${plane})`,
-          }}
-        ></div>
-      </section>
+      <div
+        key={i}
+        className={parallax.bg}
+        style={{
+          backgroundImage: `url(${plane})`,
+        }}
+      ></div>
     )
   })
 
-  return <div>{list}</div>
+  return (
+    <section className={parallax.section}>
+      <div>{list}</div>
+    </section>
+  )
 }
 
 export default Parallax
