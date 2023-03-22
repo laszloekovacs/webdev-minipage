@@ -8,7 +8,7 @@ const Parallax = (props) => {
   const numPlanes = props.planes | 4
 
   for (let i = 0; i < numPlanes; i++) {
-    planes = [...planes, `./public/plates/p${i}.png`]
+    planes = [...planes, `./plates/p${i}.png`]
   }
 
   console.log(planes)
