@@ -7,6 +7,11 @@ $inter: 'Inter', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
 $openSans: 'Open Sans', sans-serif;
 
+@font-face {
+  font-family: 'Apercu';
+  src: url('./Apercu-Font/Apercu%20Mono.otf') format('opentype');
+}
+
 /* theme background gradients */
 $theme: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 $light: linear-gradient(to right bottom, #d44000, #d30033, #c30056, #a00076, #69008e);
@@ -22,11 +27,16 @@ $sm: 0.66rem;
 
 html {
   font-size: 16px;
-  font-family: $openSans;
+  font-family: 'Apercu', 'Segoe UI', 'Roboto', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  line-height: 1.5;
   color: azure;
 
   background-image: $sunset;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  text-shadow: rgba($color: #000000, $alpha: 0.8) 0 0 0.5rem;
 }
 
 a {
@@ -74,7 +84,7 @@ nav {
 
 main {
   columns: 2;
-  text-shadow: rgba($color: #000000, $alpha: 0.8) 0 0 0.5rem;
+
   margin-bottom: 5rem;
 
   h1 {
