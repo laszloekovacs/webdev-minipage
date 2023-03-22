@@ -1,15 +1,10 @@
-@import 'normalize.css';
+@import '/node_modules/reset-css/reset.css';
+
+$light: linear-gradient(to right bottom, #d44000, #d30033, #c30056, #a00076, #69008e);
+$dark: linear-gradient(to right bottom, #373737, #434343, #4e4e4e, #5b5b5b, #676767);
 
 body {
   margin: 1px;
-}
-
-*::after,
-*::before {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-
-  --light: background-image: linear-gradient(to right bottom, #d44000, #d30033, #c30056, #a00076, #69008e);
-  --dark: background-image: linear-gradient(to right bottom, #373737, #434343, #4e4e4e, #5b5b5b, #676767);
+  background-image: $dark;
+  background-repeat: no-repeat;
 }

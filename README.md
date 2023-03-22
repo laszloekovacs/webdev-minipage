@@ -15,7 +15,6 @@
 
 - [vite](https://vitejs.dev/config/)
 - [node.js](https://nodejs.org/en)
-
 - [react](https://react.dev/)
 
 ### next
