@@ -7,7 +7,7 @@ const queryClient = new QueryClient()
 const documentUrl =
   'https://raw.githubusercontent.com/laszloekovacs/webdev-minipage/master/README.md'
 
-const LinkListConsumer = () => {
+const LinkListLoader = () => {
   const { isLoading, error, data } = useQuery('links', async () => {
     try {
       const data = await (await fetch(documentUrl)).text()
@@ -32,7 +32,7 @@ const LinkListConsumer = () => {
 const LinkList = () => {
   return (
     <QueryClientProvider client={queryClient}>
-      <LinkListConsumer />
+      <LinkListLoader />
     </QueryClientProvider>
   )
 }

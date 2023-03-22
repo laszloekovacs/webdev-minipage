@@ -75,6 +75,11 @@ nav {
     gap: 2rem;
     margin-bottom: 2rem;
 
+    /* keep on top even if scrolled down */
+    position: sticky;
+    top: 2rem;
+    padding-top: 1rem;
+
     a {
       color: whitesmoke;
       font-size: $nm;
