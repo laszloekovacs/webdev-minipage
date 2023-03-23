@@ -1,12 +1,5 @@
 @import '/node_modules/reset-css/reset.css';
 
-// inter font
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
-$inter: 'Inter', sans-serif;
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
-$openSans: 'Open Sans', sans-serif;
-
 @font-face {
   font-family: 'Apercu';
   src: url('../public/ApercuMono.otf') format('opentype');
@@ -25,11 +18,7 @@ $md: 1.5rem;
 $nm: 1rem;
 $sm: 0.66rem;
 
-img {
-  max-width: 100%;
-}
-
-html {
+body {
   font-size: 16px;
   font-family: 'Apercu', 'Segoe UI', 'Roboto', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
@@ -48,16 +37,8 @@ a {
   text-decoration: none;
 }
 
-#root {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  min-height: 100vh;
-  div {
-    margin-left: auto;
-    margin-right: auto;
-  }
+a:hover {
+  color: orange;
 }
 
 nav {
@@ -92,9 +73,12 @@ nav {
 }
 
 main {
-  columns: 2;
-
+  columns: 1;
   margin-bottom: 5rem;
+
+  @media (min-width: 768px) {
+    columns: 2;
+  }
 
   h1 {
     display: none;
