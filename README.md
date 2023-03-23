@@ -55,7 +55,7 @@
 - [chatGPT openai](https://chat.openai.com/chat)
 - [bing chat](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx)
 
-### stiyling
+### styling
 
 - [sass](https://sass-lang.com/guide)
 - [tailwind](https://tailwindcss.com/)
