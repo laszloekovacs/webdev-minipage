@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import parallax from './parallax.module.scss'
+import parallax from './Parallax.module.scss'
 
 const Parallax = (props) => {
   const [scroll, setScroll] = useState(0)

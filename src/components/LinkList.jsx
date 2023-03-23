@@ -4,6 +4,12 @@ import Showdown from 'showdown'
 
 const queryClient = new QueryClient()
 
+function delay(ms) {
+  new Promise((resolve) => {
+    return setTimeout(resolve, ms)
+  })
+}
+
 const documentUrl =
   'https://raw.githubusercontent.com/laszloekovacs/webdev-minipage/master/README.md'
 
@@ -14,6 +20,8 @@ const LinkListLoader = () => {
 
       const converter = new Showdown.Converter()
       const html = converter.makeHtml(data)
+
+      await delay(1000)
 
       return html
     } catch (error) {
