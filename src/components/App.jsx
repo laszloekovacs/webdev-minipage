@@ -10,8 +10,8 @@ import style from './App.module.scss'
 
 function App() {
   return (
-    <div className={style.app}>
-      <div>
+    <div>
+      <div className={style.app}>
         <Header />
         <Parallax />
         <LinkList />
