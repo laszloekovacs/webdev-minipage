@@ -4,14 +4,8 @@ import Showdown from 'showdown'
 
 const queryClient = new QueryClient()
 
-function delay(ms) {
-  new Promise((resolve) => {
-    return setTimeout(resolve, ms)
-  })
-}
-
 const documentUrl =
-  'https://raw.githubusercontent.com/laszloekovacs/webdev-minipage/master/README.md'
+  'https://raw.githubusercontent.com/laszloekovacs/webdev-minipage/master/content.md'
 
 const LinkListLoader = () => {
   const { isLoading, error, data } = useQuery('links', async () => {
@@ -21,17 +15,15 @@ const LinkListLoader = () => {
       const converter = new Showdown.Converter()
       const html = converter.makeHtml(data)
 
-      await delay(1000)
-
       return html
     } catch (error) {
       console.log(error)
     }
   })
 
-  if (isLoading) return 'Loading...'
+  if (isLoading) return <p>Loading...</p>
 
-  if (error) return 'An error has occurred: ' + error.message
+  if (error) return <p>{'An error has occurred: ' + error.message}</p>
 
   return <main dangerouslySetInnerHTML={{ __html: data }} />
 }
