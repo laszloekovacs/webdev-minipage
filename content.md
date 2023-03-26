@@ -24,6 +24,7 @@
 
 - [redux](https://redux.js.org/)
 - [reactQuery](https://react-query-v3.tanstack.com/)
+- [axios](https://axios-http.com/docs/intro)
 
 ### react router
 
