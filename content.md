@@ -15,16 +15,16 @@
 - [node.js](https://nodejs.org/en)
 - [react](https://react.dev/)
 - [storybook](https://storybook.js.org/)
+- [redux](https://redux.js.org/)
+- [reactQuery](https://react-query-v3.tanstack.com/)
+- [axios](https://axios-http.com/docs/intro)
+- [RxJS](https://rxjs.dev/)
+- [lodash](https://lodash.com)
+
 ### next
 
 - [next.js](https://nextjs.org/docs)
 - [next.auth / auth.js](https://authjs.dev/)
-
-### state management
-
-- [redux](https://redux.js.org/)
-- [reactQuery](https://react-query-v3.tanstack.com/)
-- [axios](https://axios-http.com/docs/intro)
 
 ### react router
 
@@ -58,7 +58,6 @@
 
 - [sass](https://sass-lang.com/guide)
 - [tailwind](https://tailwindcss.com/)
-- [normalize.css](https://necolas.github.io/normalize.css/)
 
 ### C programming - the fun part
 
