@@ -58,6 +58,7 @@
 
 - [sass](https://sass-lang.com/guide)
 - [tailwind](https://tailwindcss.com/)
+- [openprops](https://open-props.style/)
 
 ### C programming - the fun part
 
