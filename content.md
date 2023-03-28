@@ -14,7 +14,7 @@
 - [vite](https://vitejs.dev/config/)
 - [node.js](https://nodejs.org/en)
 - [react](https://react.dev/)
-
+- [storybook](https://storybook.js.org/)
 ### next
 
 - [next.js](https://nextjs.org/docs)
