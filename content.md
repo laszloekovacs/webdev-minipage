@@ -59,7 +59,7 @@
 - [sass](https://sass-lang.com/guide)
 - [tailwind](https://tailwindcss.com/)
 - [openprops](https://open-props.style/)
-- [styled compnents](https://styled-components.com/)
+- [styled components](https://styled-components.com/)
 
 ### C programming - the fun part
 
