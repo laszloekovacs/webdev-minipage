@@ -21,7 +21,7 @@
 - [lodash](https://lodash.com)
 - [cypress](https://www.cypress.io/)
 - [storybook](https://storybook.js.org/)
-- 
+
 ### next
 
 - [next.js](https://nextjs.org/docs)
