@@ -19,6 +19,10 @@
 - [axios](https://axios-http.com/docs/intro)
 - [RxJS](https://rxjs.dev/)
 - [lodash](https://lodash.com)
+
+### testing
+- [playwright](https://playwright.dev/)
+- [vitest](https://vitest.dev/)
 - [cypress](https://www.cypress.io/)
 
 ### next
