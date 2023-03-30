@@ -20,7 +20,6 @@
 - [RxJS](https://rxjs.dev/)
 - [lodash](https://lodash.com)
 - [cypress](https://www.cypress.io/)
-- [storybook](https://storybook.js.org/)
 
 ### next
 
