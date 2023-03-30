@@ -38,6 +38,7 @@
 - [mongodb](https://www.mongodb.com/docs/manual/)
 - [mongoose](https://mongoosejs.com/)
 - [prisma](https://www.prisma.io/)
+- [graphql](https://graphql.org/)
 
 ### webdesign
 
