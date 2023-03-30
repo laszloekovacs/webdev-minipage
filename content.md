@@ -19,6 +19,7 @@
 - [axios](https://axios-http.com/docs/intro)
 - [RxJS](https://rxjs.dev/)
 - [lodash](https://lodash.com)
+- [swr](https://swr.vercel.app/)
 
 ### testing
 - [playwright](https://playwright.dev/)
