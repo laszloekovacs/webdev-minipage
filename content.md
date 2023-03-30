@@ -17,7 +17,6 @@
 - [redux](https://redux.js.org/)
 - [reactQuery](https://react-query-v3.tanstack.com/)
 - [axios](https://axios-http.com/docs/intro)
-- [RxJS](https://rxjs.dev/)
 - [lodash](https://lodash.com)
 - [swr](https://swr.vercel.app/)
 
@@ -50,22 +49,13 @@
 - [figma](https://www.figma.com/)
 - [color space](https://mycolor.space/)
 - [Typescale](https://typescale.com/)
-- [Dribble](https://dribbble.com/shots)
-- [envato](https://elements.envato.com/)
 - [google fonts](https://fonts.google.com/)
 - [google icons](https://fonts.google.com/icons)
-
-### auto tech support
-
-- [chatGPT openai](https://chat.openai.com/chat)
-- [bing chat](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx)
 
 ### styling
 
 - [sass](https://sass-lang.com/guide)
 - [tailwind](https://tailwindcss.com/)
-- [openprops](https://open-props.style/)
-- [styled components](https://styled-components.com/)
 
 ### C programming - the fun part
 
