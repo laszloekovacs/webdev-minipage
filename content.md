@@ -14,13 +14,14 @@
 - [vite](https://vitejs.dev/config/)
 - [node.js](https://nodejs.org/en)
 - [react](https://react.dev/)
-- [storybook](https://storybook.js.org/)
 - [redux](https://redux.js.org/)
 - [reactQuery](https://react-query-v3.tanstack.com/)
 - [axios](https://axios-http.com/docs/intro)
 - [RxJS](https://rxjs.dev/)
 - [lodash](https://lodash.com)
-
+- [cypress](https://www.cypress.io/)
+- [storybook](https://storybook.js.org/)
+- 
 ### next
 
 - [next.js](https://nextjs.org/docs)
