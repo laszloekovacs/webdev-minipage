@@ -23,7 +23,8 @@
 ### testing
 - [playwright](https://playwright.dev/)
 - [vitest](https://vitest.dev/)
-- [cypress](https://www.cypress.io/)
+- [storybook](https://storybook.js.org/)
+- [testing lib](https://testing-library.com/)
 
 ### next
 
