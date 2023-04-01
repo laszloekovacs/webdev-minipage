@@ -45,9 +45,8 @@
 - [SqlServer](https://learn.microsoft.com/en-us/sql)
 - [postgres](https://www.postgresql.org/docs/)
 - [mongodb](https://www.mongodb.com/docs/manual/)
-
--[TypeORM](https://typeorm.io/data-source)
--[sequelize](https://sequelize.org/)
+- [TypeORM](https://typeorm.io/data-source)
+- [sequelize](https://sequelize.org/)
 
 ### webdesign
 
