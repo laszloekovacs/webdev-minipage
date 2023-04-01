@@ -20,6 +20,11 @@
 - [lodash](https://lodash.com)
 - [swr](https://swr.vercel.app/)
 
+### styling
+
+- [sass](https://sass-lang.com/guide)
+- [tailwind](https://tailwindcss.com/)
+
 ### testing
 - [Cypress.io](https://www.cypress.io/)
 - [vitest](https://vitest.dev/)
@@ -52,11 +57,6 @@
 - [Typescale](https://typescale.com/)
 - [google fonts](https://fonts.google.com/)
 - [google icons](https://fonts.google.com/icons)
-
-### styling
-
-- [sass](https://sass-lang.com/guide)
-- [tailwind](https://tailwindcss.com/)
 
 ### C programming - the fun part
 
