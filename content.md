@@ -21,7 +21,7 @@
 - [swr](https://swr.vercel.app/)
 
 ### testing
-- [playwright](https://playwright.dev/)
+- [Cypress.io](https://www.cypress.io/)
 - [vitest](https://vitest.dev/)
 - [storybook](https://storybook.js.org/)
 - [testing lib](https://testing-library.com/)
