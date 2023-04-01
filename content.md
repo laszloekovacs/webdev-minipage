@@ -19,6 +19,7 @@
 - [axios](https://axios-http.com/docs/intro)
 - [lodash](https://lodash.com)
 - [swr](https://swr.vercel.app/)
+- [d3](https://d3js.org/)
 
 ### styling
 
@@ -28,8 +29,6 @@
 ### testing
 - [playwright](https://playwright.dev/)
 - [vitest](https://vitest.dev/)
-
-
 
 ### next
 
