@@ -26,10 +26,10 @@
 - [tailwind](https://tailwindcss.com/)
 
 ### testing
-- [Cypress.io](https://www.cypress.io/)
+- [playwright](https://playwright.dev/)
 - [vitest](https://vitest.dev/)
-- [storybook](https://storybook.js.org/)
-- [testing lib](https://testing-library.com/)
+
+
 
 ### next
 
