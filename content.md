@@ -42,9 +42,7 @@
 
 ### database
 
-- [SqlServer](https://learn.microsoft.com/en-us/sql)
-- [postgres](https://www.postgresql.org/docs/)
-- [mongodb](https://www.mongodb.com/docs/manual/)
+- [prisma](https://www.prisma.io/)
 - [TypeORM](https://typeorm.io/data-source)
 - [sequelize](https://sequelize.org/)
 
