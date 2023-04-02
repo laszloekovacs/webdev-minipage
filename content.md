@@ -44,7 +44,6 @@
 
 - [prisma](https://www.prisma.io/)
 - [TypeORM](https://typeorm.io/data-source)
-- [sequelize](https://sequelize.org/)
 
 ### webdesign
 
