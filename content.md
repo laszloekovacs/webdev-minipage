@@ -40,7 +40,7 @@
 - [react router](https://reactrouter.com/en/main)
 - [remix](https://remix.run/)
 
-### database
+### database ORM
 
 - [prisma](https://www.prisma.io/)
 - [TypeORM](https://typeorm.io/data-source)
