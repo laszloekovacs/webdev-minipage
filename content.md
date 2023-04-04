@@ -12,6 +12,7 @@
 ### frameworks and tools
 
 - [vite](https://vitejs.dev/config/)
+- [esbuild](https://esbuild.github.io/)
 - [node.js](https://nodejs.org/en)
 - [react](https://react.dev/)
 - [redux](https://redux.js.org/)
