@@ -24,6 +24,7 @@
 - [lodash](https://lodash.com)
 - [swr](https://swr.vercel.app/)
 - [d3](https://d3js.org/)
+- [nanoid](https://www.npmjs.com/package/nanoid)
 
 ### styling
 
