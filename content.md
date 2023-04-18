@@ -9,6 +9,7 @@
 - [docs.com](https://learn.microsoft.com/en-us/)
 - [typescript](https://www.typescriptlang.org/)
 - [emmet](https://docs.emmet.io/cheat-sheet/)
+- [prettier](https://prettier.io/docs/en/options.html)
 
 ### frameworks and tools
 
