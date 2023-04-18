@@ -10,6 +10,7 @@
 - [typescript](https://www.typescriptlang.org/)
 - [emmet](https://docs.emmet.io/cheat-sheet/)
 - [prettier](https://prettier.io/docs/en/options.html)
+- [javascript.info](https://javascript.info/)
 
 ### frameworks and tools
 
