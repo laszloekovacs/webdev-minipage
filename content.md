@@ -55,7 +55,8 @@
 
 ### webdesign
 
-- [fontsurce](https://fontsource.org/)
+- [fluent react](https://react.fluentui.dev/)
+- [fontsource](https://fontsource.org/)
 - [ant design](https://ant.design/)
 - [chakra ui](https://chakra-ui.com/)
 - [material ui](https://mui.com/material-ui/)
