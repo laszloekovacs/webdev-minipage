@@ -25,6 +25,7 @@
 - [swr](https://swr.vercel.app/)
 - [d3](https://d3js.org/)
 - [nanoid](https://www.npmjs.com/package/nanoid)
+- [nivo.charts](https://nivo.rocks/)
 
 ### styling
 
