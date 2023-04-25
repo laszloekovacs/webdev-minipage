@@ -39,7 +39,7 @@
 ### next
 
 - [next.js](https://nextjs.org/docs)
-- [next.auth / auth.js](https://authjs.dev/)
+
 
 ### react router
 
@@ -65,6 +65,11 @@
 - [Typescale](https://typescale.com/)
 - [google fonts](https://fonts.google.com/)
 - [google icons](https://fonts.google.com/icons)
+
+### auth
+- [oauth client](https://github.com/badgateway/oauth2-client)
+- [next.auth / auth.js](https://authjs.dev/)
+
 
 ### C programming - the fun part
 
